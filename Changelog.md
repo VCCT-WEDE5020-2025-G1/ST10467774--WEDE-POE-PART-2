@@ -12,3 +12,5 @@ Updated HTML pages to ensure they link correctly to the stylesheet.
 Adjusted navigation to work with JavaScript mobile toggle menu.
 Add a reference list to the readme of part 1.
 Added screenshots to see the website adapting to screen sizes.
+
+Part 3 content
