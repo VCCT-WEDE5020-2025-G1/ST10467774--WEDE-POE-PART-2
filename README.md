@@ -148,3 +148,8 @@ This project continues from **Part 1** and focuses on implementing **CSS styling
 * Keep a Changelog. (2019) Keep a Changelog. Available at: https://keepachangelog.com/
  (Accessed: 29 September 2025).
 
+
+
+## Updated Readme WEDE5020-PART 3
+
+
