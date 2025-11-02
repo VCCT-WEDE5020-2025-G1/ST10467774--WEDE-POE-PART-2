@@ -13,10 +13,13 @@
   <div class="container navbar">
     <a class="brand" href="index.html"><div class="logo">KJ</div><h1>Klein Joostenberg Deli & Wine Estate</h1></a>
     <button class="menu-btn" aria-label="Toggle navigation">☰</button>
-    <nav><ul>
-      <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
-      <li><a href="products.html">Products</a></li><li><a href="enquiry.html">Enquiry</a></li>
-      <li><a href="contact.html">Contact</a></li></ul></nav>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li><li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </div>
 </header>
 
@@ -64,11 +67,11 @@
         <strong data-title>Calendar</strong>
         <button class="btn btn-ghost" type="button" data-next>›</button>
       </div>
-      <div class="grid"></div>
+      <div class="grid calendar-grid" aria-hidden="false"></div>
       <p class="helper">Pick your preferred date for a visit. Peak times are weekends 10:00–14:00 (book early!).</p>
     </div>
 
-    <form id="booking-form" class="form">
+    <form id="booking-form" class="form" novalidate>
       <h3 id="booking-title" style="margin-top:0">Booking Request</h3>
       <div class="row">
         <div><label for="people">Guests</label><input id="people" name="people" type="number" min="1" max="20" value="2" required></div>
@@ -81,12 +84,12 @@
       </div>
       <div class="row">
         <div><label for="booking-date">Date</label><input id="booking-date" name="date" type="date" required></div>
-        <div><label for="email">Email</label><input id="email" name="email" type="email" required placeholder="you@example.com"></div>
+        <div><label for="email-book">Email</label><input id="email-book" name="email" type="email" required placeholder="you@example.com"></div>
       </div>
       <label for="notes">Notes</label>
       <textarea id="notes" name="notes" placeholder="High-chair, dietary requests, celebration?"></textarea>
       <button class="btn btn-primary" type="submit">Send booking request</button>
-      <p class="helper">This sends a request only — our team will confirm availability by email.</p>
+      <p id="booking-status" class="helper" role="status" aria-live="polite"></p>
     </form>
   </section>
 </main>

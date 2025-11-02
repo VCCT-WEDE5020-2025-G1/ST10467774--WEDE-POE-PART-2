@@ -1,7 +1,7 @@
-Changelog Version 1
+Changelog Part 1-Version 1
 Changed HTML in the codes. Changed pictures in the website to make it more user friendly and attractive.
 
-Changelog Version 2
+Changelog Part 2-Version 2
 29 September 2025
 
 Edited styles.css:
@@ -13,4 +13,4 @@ Adjusted navigation to work with JavaScript mobile toggle menu.
 Add a reference list to the readme of part 1.
 Added screenshots to see the website adapting to screen sizes.
 
-Part 3 content
+Changelog Part 3-Verion 3
