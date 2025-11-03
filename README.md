@@ -126,25 +126,18 @@ This project continues from **Part 1** and focuses on implementing **CSS styling
 
 * Joostenberg. The Deli. Joostenberg. Available at: https://joostenberg.co.za/the-deli/
  (Accessed: 29 September 2025).
-
 * OpenAI. (2025) ChatGPT responses on CSS styling, README documentation, changelog formatting, and website structure guidance. Available at: https://chat.openai.com/
  (Accessed: 29 September 2025).
-
 * MDN Web Docs. (n.d.) CSS: Cascading Style Sheets. Mozilla. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS
  (Accessed: 29 September 2025).
-
 * MDN Web Docs. (n.d.) Responsive design. Mozilla. Available at: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design
  (Accessed: 29 September 2025).
-
 * Anglia Ruskin University. (2023) Harvard System of Referencing Guide. Cambridge: Anglia Ruskin University. Available at: https://library.aru.ac.uk/referencing/harvard.htm
  (Accessed: 29 September 2025).
-
 * Unsplash. (2017) Photo of breakfast scene with coffee and bread [Photograph]. Available at: https://images.unsplash.com/photo-1504754524776-8f4f37790ca0
  (Accessed: 29 September 2025).
-
 * GitHub Docs. (n.d.) About README files. GitHub. Available at: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes
  (Accessed: 29 September 2025).
-
 * Keep a Changelog. (2019) Keep a Changelog. Available at: https://keepachangelog.com/
  (Accessed: 29 September 2025).
 
@@ -165,37 +158,78 @@ This part of the project focused on:
 
 The website is set within a South African context, using ZAR currency and operating hours of 08:00–17:00.
 
-### Implementation Summary
+## Implementation Summary
 
  #### HTML Pages
-index.html
+##### index.html
 * Homepage containing a hero section, welcome text, and navigation links.
 * Includes footer with dynamic year and “Open Now” badge.
 
-about.html
+##### about.html
+* Provides information about Klein Joostenberg’s history, values, and goals.
+* Maintains consistent navigation and layout across the site.
 
-Provides information about Klein Joostenberg’s history, values, and goals.
+##### products.html
+* Displays products in a grid layout with properly sized image boxes.
+* Adjusted spacing and structure to prevent image overlap.
 
-Maintains consistent navigation and layout across the site.
+##### contact.html
+* Includes a contact section with embedded OpenStreetMap location.
+* Features a booking form with time, date, and guest selection.
+* Contains a functional, interactive calendar component.
 
-products.html
+##### enquiry.html
+* Contains an enquiry form with input fields for name, email, phone, subject, and message.
+* Includes validation and confirmation message upon submission.
 
-Displays products in a grid layout with properly sized image boxes.
-
-Adjusted spacing and structure to prevent image overlap.
-
-contact.html
-
-Includes a contact section with embedded OpenStreetMap location.
-
-Features a booking form with time, date, and guest selection.
-
-Contains a functional, interactive calendar component.
-
-enquiry.html
-
-Contains an enquiry form with input fields for name, email, phone, subject, and message.
-
-Includes validation and confirmation message upon submission.
+## JavaScript (script.js)
+* Added responsive navigation menu that toggles open and closed for mobile view.
+* Implemented active link highlighting based on the current page.
+* Created dynamic “Open Now / Closed” badge that checks the current time.
+* Developed interactive booking calendar (no external libraries used).
+* Added form handling and validation for enquiry and booking forms.
+* Displayed confirmation alerts for form submissions.
+* Removed all AJAX functions to meet project requirements (local operations only).
+* Included inline comments for better readability and understanding.
 
 
+## Design & Functionality Improvements (Part 3 Updates)
+
+* Verified that all HTML pages contain proper structure including header, footer, and accessibility tags (aria-label, id, alt).
+* Maintained original colour scheme to preserve brand consistency.
+* Added responsive menu button with JavaScript toggle functionality.
+* Implemented open/closed time badge that updates based on local time.
+* Created interactive booking calendar for date selection.
+* Integrated validation and confirmation for both enquiry and booking forms.
+* Tested responsiveness on multiple devices using Chrome DevTools.
+
+## Changelog – Part 3
+
+* 29 October 2025: Updated all HTML files for structure, accessibility, and consistency.
+* 30 October 2025: Added responsive navigation button and open/close time functionality.
+* 31 October 2025: Implemented booking and enquiry form logic using JavaScript ( monthly view, prev/next navigation, day selection).
+* 1 November 2025: Created interactive calendar for booking selection.
+                 Improved interactive element roles/attributes (buttons, keyboard-friendly calendar cells)
+* 2 November 2025: Adjusted product image layout and confirmed visual alignment.
+* 2 November 2025: Cleaned and commented JavaScript, removed AJAX, and created README documentation.
+                 Added JavaScript features (script.js):
+                  - Active nav link detection and highlighting.
+                  - "Open now" badge logic based on current time/day.
+                  - Accordion component for collapsible content panels.
+                  - Image lightbox gallery for viewing gallery images in a modal.
+                  - Product search / filter for .product-card elements.
+                  - Form validation for enquiry and booking forms with inline error messages and simulated AJAX/alerts.
+                  - Smooth fade-in animations via IntersectionObserver for progressive reveal.
+
+
+ ## Reference List
+ * OpenAI. (2025) ChatGPT (version GPT-5) [Large language model]. Available at: https://chat.openai.com/
+ (Accessed: 2 November 2025).
+* Mozilla Developer Network (MDN). (2025) JavaScript guide and reference documentation. Available at: https://developer.mozilla.org/
+ (Accessed: 1 November 2025).
+* W3Schools. (2025) HTML, CSS, and JavaScript Tutorials. Available at: https://www.w3schools.com/
+ (Accessed: 1 November 2025).
+* FreeCodeCamp. (2024) How to Build a Responsive Navigation Menu in HTML, CSS, and JavaScript. Available at: https://www.freecodecamp.org/news/
+ (Accessed: 31 October 2025).
+* Unsplash. (n.d.) Royalty-free images for web design projects. Available at: https://unsplash.com/
+ (Accessed: 30 October 2025).
