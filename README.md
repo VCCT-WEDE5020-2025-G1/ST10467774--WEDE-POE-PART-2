@@ -196,7 +196,7 @@ The website is set within a South African context, using ZAR currency and operat
 
 ## Design & Functionality Improvements (Part 3 Updates)
 
-* Verified that all HTML pages contain proper structure including header and footer.
+* Verified that all HTML pages contain proper structure including header, footer and accessibility tags (aria-label, id, alt).
 * Maintained original colour scheme to preserve brand consistency.
 * Added responsive menu button with JavaScript toggle functionality.
 * Implemented open/closed time badge that updates based on local time.
