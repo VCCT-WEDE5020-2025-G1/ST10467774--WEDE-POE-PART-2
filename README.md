@@ -144,6 +144,7 @@ This project continues from **Part 1** and focuses on implementing **CSS styling
 
 
 ## Updated Readme WEDE5020-PART 3
+GitHub Link: 
 
 This project represents Part 3 of the Klein Joostenberg Deli & Wine Estate website, developed as part of a Web Development module practical.
 The website showcases a modern, fully responsive design that allows users to browse deli and wine products, make enquiries, and send booking requests.This ia also the final product of the website that was created.
@@ -209,17 +210,17 @@ The website is set within a South African context, using ZAR currency and operat
 * 30 October 2025: Added responsive navigation button and open/close time functionality.
 * 31 October 2025: Implemented booking and enquiry form logic using JavaScript ( monthly view, prev/next navigation, day selection).
 * 1 November 2025: Created interactive calendar for booking selection.
-                 Improved interactive element roles/attributes (buttons, keyboard-friendly calendar cells)
+                 * Improved interactive element roles/attributes (buttons, keyboard-friendly calendar cells)
 * 2 November 2025: Adjusted product image layout and confirmed visual alignment.
 * 2 November 2025: Cleaned and commented JavaScript, removed AJAX, and created README documentation.
-                 Added JavaScript features (script.js):
-                  - Active nav link detection and highlighting.
-                  - "Open now" badge logic based on current time/day.
-                  - Accordion component for collapsible content panels.
-                  - Image lightbox gallery for viewing gallery images in a modal.
-                  - Product search / filter for .product-card elements.
-                  - Form validation for enquiry and booking forms with inline error messages and simulated AJAX/alerts.
-                  - Smooth fade-in animations via IntersectionObserver for progressive reveal.
+                  *  Added JavaScript features (script.js):
+                  *  Active nav link detection and highlighting.
+                  *  "Open now" badge logic based on current time/day.
+                  *  Accordion component for collapsible content panels.
+                  *  Image lightbox gallery for viewing gallery images in a modal.
+                  *  Product search / filter for .product-card elements.
+                  *  Form validation for enquiry and booking forms with inline error messages and simulated AJAX/alerts.
+                  *  Smooth fade-in animations via IntersectionObserver for progressive reveal.
 
 
  ## Reference List
