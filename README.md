@@ -144,7 +144,7 @@ This project continues from **Part 1** and focuses on implementing **CSS styling
 
 
 ## Updated Readme WEDE5020-PART 3
-GitHub Link: 
+GitHub Link: https://github.com/VCCT-WEDE5020-2025-G1/ST10467774--WEDE-POE-PART-2 
 
 This project represents Part 3 of the Klein Joostenberg Deli & Wine Estate website, developed as part of a Web Development module practical.
 The website showcases a modern, fully responsive design that allows users to browse deli and wine products, make enquiries, and send booking requests.This ia also the final product of the website that was created.
