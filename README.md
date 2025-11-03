@@ -152,4 +152,50 @@ This project continues from **Part 1** and focuses on implementing **CSS styling
 
 ## Updated Readme WEDE5020-PART 3
 
+This project represents Part 3 of the Klein Joostenberg Deli & Wine Estate website, developed as part of a Web Development module practical.
+The website showcases a modern, fully responsive design that allows users to browse deli and wine products, make enquiries, and send booking requests.This ia also the final product of the website that was created.
+
+This part of the project focused on:
+
+* Implementing interactivity using JavaScript
+* Adding form validation and user confirmation messages
+* Creating a custom booking calendar
+* Ensuring responsive and accessible design
+* Maintaining consistent styling and layout across all pages
+
+The website is set within a South African context, using ZAR currency and operating hours of 08:00–17:00.
+
+### Implementation Summary
+
+ #### HTML Pages
+index.html
+* Homepage containing a hero section, welcome text, and navigation links.
+* Includes footer with dynamic year and “Open Now” badge.
+
+about.html
+
+Provides information about Klein Joostenberg’s history, values, and goals.
+
+Maintains consistent navigation and layout across the site.
+
+products.html
+
+Displays products in a grid layout with properly sized image boxes.
+
+Adjusted spacing and structure to prevent image overlap.
+
+contact.html
+
+Includes a contact section with embedded OpenStreetMap location.
+
+Features a booking form with time, date, and guest selection.
+
+Contains a functional, interactive calendar component.
+
+enquiry.html
+
+Contains an enquiry form with input fields for name, email, phone, subject, and message.
+
+Includes validation and confirmation message upon submission.
+
 
