@@ -14,25 +14,24 @@ Add a reference list to the readme of part 1.
 Added screenshots to see the website adapting to screen sizes.
 
 Changelog Part 3-Verion 3
-Added JavaScript features (script.js):
-  - Mobile navigation toggle (menu button opens/closes nav on small screens).
-  - Active nav link detection and highlighting.
-  - "Open now" badge logic based on current time/day.
-  - Accordion component for collapsible content panels.
-  - Image lightbox gallery for viewing gallery images in a modal.
-  - Product search / filter for .product-card elements.
-  - Booking calendar component (monthly view, prev/next navigation, day selection).
-  - Form validation for enquiry and booking forms with inline error messages and simulated AJAX/alerts.
-  - Smooth fade-in animations via IntersectionObserver for progressive reveal.
-- Styles updates to support new JS features:
-  - Calendar styles and selected-day states.
-  - Form styles and error message placement.
-  - Responsive rules for mobile nav and layout adjustments.
-- Accessibility & UX:
-  - Improved interactive element roles/attributes (buttons, keyboard-friendly calendar cells).
-  - Better contrast and visual feedback for hover/active states.
-- Content & assets:
-  - Replaced/updated images used in hero and other sections to improve visual quality.
-  - Added screenshots demonstrating responsive behavior.
-- Documentation:
-  - Changelog updated to reflect the above feature additions and styling improvements.
+
+29 October 2025: Updated all HTML files for structure, accessibility, and consistency.
+
+30 October 2025: Added responsive navigation button and open/close time functionality.
+
+31 October 2025: Implemented booking and enquiry form logic using JavaScript ( monthly view, prev/next navigation, day selection).
+
+1 November 2025: Created interactive calendar for booking selection.
+                 Improved interactive element roles/attributes (buttons, keyboard-friendly calendar cells)
+
+2 November 2025: Adjusted product image layout and confirmed visual alignment.
+
+2 November 2025: Cleaned and commented JavaScript, removed AJAX, and created README documentation.
+                 Added JavaScript features (script.js):
+                  - Active nav link detection and highlighting.
+                  - "Open now" badge logic based on current time/day.
+                  - Accordion component for collapsible content panels.
+                  - Image lightbox gallery for viewing gallery images in a modal.
+                  - Product search / filter for .product-card elements.
+                  - Form validation for enquiry and booking forms with inline error messages and simulated AJAX/alerts.
+                  - Smooth fade-in animations via IntersectionObserver for progressive reveal.
